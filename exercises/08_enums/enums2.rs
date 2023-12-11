@@ -8,6 +8,19 @@
 #[derive(Debug)]
 enum Message {
     // TODO: define the different variants used below
+    Move,
+    Quit
+}
+
+impl Message {
+
+    fn Echo (temp: String) {
+        println!("{}", temp);
+    }
+
+    fn ChangeColor(red: u32, green: u32, blue: u32) {
+
+    }
 }
 
 impl Message {
